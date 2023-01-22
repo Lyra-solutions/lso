@@ -1,0 +1,108 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css" type="text/css">
+
+    <title>Contact Us</title>
+</head>
+
+<!-- Header with nav bar -->
+
+<header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="contact-us.html">Contact Us</a>
+        <a href="about-us.html">About Us</a>
+
+        <div class="logo-nav">
+            <p>insert logo here</p>
+        </div>
+    </nav>
+</header>
+
+<!-- breadcrumbs (reference in css style sheet) -->
+
+<ul class="breadcrumb">
+    <li><a href="index.html">Home</a></li>
+    <li>Contact Us</li>
+</ul>
+
+<!-- main content of page -->
+
+<body>
+    <h1>Contact Us</h1>
+    <!-- contact us customer support support form -->
+    <form action="">
+        <label for="ClientName">Full name/Company name</label>
+        <input type="text" id="ClientName" placeholder="Enter your full name or your
+        companys's name" name="ClientName">
+
+
+        <div class="client-type">
+            <p>Client type</p>
+            <div>
+                <label for="organisational">Organisational Use</label>
+                <input type="radio" name="c-type" id="organisational" value="organisational">
+            </div>
+            <div>
+                <label for="small-business">Small Business Use</label>
+                <input type="radio" name="c-type" id="small-business" value="small-business">
+            </div>
+            <div>
+                <label for="personal">Personal Use</label>
+                <input type="radio" name="c-type" id="personal" value="personal" required>
+            </div>
+
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter contact email" required>
+            </div>
+
+            <div>
+                <span class=""><label for="products">Why would you like to contact us?</label></span>
+                <select name="product-selection" id="product-selection">
+                    <option value="service-q">Service Query</option>
+                    <option value="general-q">General Query</option>
+                    <option value="complaint">Complaint</option>
+                    <option value="other">Other</option>
+
+                    <textarea name="other-text" id="other-text" cols="30"
+                        rows="10">If you selected other, please tell us more.</textarea>
+
+                    <div class="form-item">
+                        <button class="submit" type="submit" value="Submit">Submit</button>
+                    </div>
+                </select>
+
+            </div>
+        </div>
+
+
+    </form>
+
+
+</body>
+
+
+<!-- footer -->
+<footer>
+    <div class="foot"></div>
+    <div c>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="contact-us.html">Contact Us</a>
+        <a href="about-us.html">About Us</a>
+    </div>
+
+    <p>
+        Website created by Lyra Solutions&reg; -
+        A. Stepanov, G. D'Amore, J. Chiverton,
+        J. Moore, K. Carrillo Fuentes, Megan McDougall.
+
+        Group Manager: W. Pang
+
+    </p>
+
+</footer>

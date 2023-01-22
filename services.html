@@ -1,0 +1,134 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css" type="text/css">
+
+    <title>Services</title>
+</head>
+
+<!-- Header with nav bar -->
+
+<header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="contact-us.html">Contact Us</a>
+        <a href="about-us.html">About Us</a>
+
+        <div class="logo-nav">
+            <p>insert logo here</p>
+        </div>
+    </nav>
+</header>
+
+<!-- breadcrumbs (reference in css style sheet) -->
+
+<ul class="breadcrumb">
+    <li><a href="index.html">Home</a></li>
+    <li>Services</li>
+</ul>
+
+<!-- main content of page -->
+
+<body>
+    <h1>Services</h1>
+    <p>Lyra solutions&reg; offers a range of products. As we are a team of developers there really is great room for
+        creativity and innovation.
+        Below are examples of services we can provide to you and your company. If you beleive the service you desire is
+        described below, please
+        click on the option for further details.
+    </p>
+    <p>If you desire more help with choosing a service, or have any queries, please follow this link and our team can
+        assist you.
+    </p>
+
+    <div>
+        <div class="card">
+            <img src="images/gp-web-dev-photo.jpg" alt="website development" style="width:25%">
+            <div class="container">
+                <h4><b>Website Development</b></h4>
+                <p>Wesbite development & design</p>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="card">
+            <img src="images/gp-web-dev-photo.jpg" alt="Application development" style="width:25%">
+            <div class="container">
+                <h4><b>Application Development</b></h4>
+                <p>Applocation development & design</p>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="card">
+            <img src="images/gp-web-dev-photo.jpg" alt="Avatar" style="width:25%">
+            <div class="container">
+                <h4><b>Other</b></h4>
+                <p>Please select if you believe the previous cards
+                    don't quite match your description
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="client-type">
+        <p>Client type</p>
+        <div>
+            <label for="organisational">Organisational Use</label>
+            <input type="radio" name="c-type" id="organisational" value="organisational">
+        </div>
+        <div>
+            <label for="small-business">Small Business Use</label>
+            <input type="radio" name="c-type" id="small-business" value="small-business">
+        </div>
+        <div>
+            <label for="personal">Personal Use</label>
+            <input type="radio" name="c-type" id="personal" value="personal" required>
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter contact email" required>
+        </div>
+
+        <div>
+            <span class=""><label for="products">Select a product</label></span>
+            <select name="product-selection" id="product-selection">
+                <option value="web-dev">Website development</option>
+                <option value="app-dev">App development</option>
+                <option value="other">Other</option>
+            </select>
+            <textarea name="other-text" id="other-text" cols="30"
+                rows="10">If you selected other, please tell us more.</textarea>
+        </div>
+    </div>
+
+
+    </form>
+
+</body>
+
+
+<!-- footer -->
+<footer>
+    <div class="foot"></div>
+    <div c>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="contact-us.html">Contact Us</a>
+        <a href="about-us.html">About Us</a>
+    </div>
+
+    <p>
+        Website created by Lyra Solutions&reg; -
+        A. Stepanov, G. D'Amore, J. Chiverton,
+        J. Moore, K. Carrillo Fuentes, Megan McDougall.
+
+        Group Manager: W. Pang
+
+    </p>
+
+</footer>
