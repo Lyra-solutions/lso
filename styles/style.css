@@ -1,4 +1,19 @@
-  /* Style the body */
+ /* Responsive layout */
+  @media screen and (max-width: 700px) {
+    .row {   
+      flex-direction: column;
+    }
+  }
+  
+/* Responsive layout */
+  @media screen and (max-width: 400px) {
+    .navbar a {
+      float: none;
+      width: 100%;
+    }
+  }
+ 
+/* Style the body */
   body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -86,19 +101,4 @@
   	padding: 10px;
     text-align: center;
     background: white;
-  }
-  
-  /* Responsive layout */
-  @media screen and (max-width: 700px) {
-    .row {   
-      flex-direction: column;
-    }
-  }
-  
-  /* Responsive layout */
-  @media screen and (max-width: 400px) {
-    .navbar a {
-      float: none;
-      width: 100%;
-    }
   }
