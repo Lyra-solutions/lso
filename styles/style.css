@@ -28,11 +28,6 @@
     color: #00bfff;
     }
    
-/* Style the body */
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0; }
-
 /* Sticky navbar  */
   .navbar {
     overflow: hidden;
@@ -93,7 +88,12 @@
     color: #FFFFFF;
     padding: 20px;
   }
-  
+
+/* Style the body */
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0; }
+
   /* Footer */
   .footer {
   	padding: 10px;
