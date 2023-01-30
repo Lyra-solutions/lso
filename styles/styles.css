@@ -16,6 +16,8 @@
   /* Increase the font size of the heading */
   .header h1 {
     font-size: 40px;
+    background: #87CEFA;
+    color: #00bfff
   }
   
   /* Sticky navbar  */
