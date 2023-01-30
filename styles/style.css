@@ -12,13 +12,14 @@
       width: 100%;
     }
   }
- 
-/* Style the body */
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0; }
+/* Increase the font size of the heading */
+  .header h1 {
+    font-size: 40px;
+    background: #87CEFA;
+    color: #00bfff
+  }
   
-  /* Header*/
+/* Header*/
   .header {
     padding: 100px;
     font-weight: bold;
@@ -26,15 +27,13 @@
     background: #87CEFA;
     color: #00bfff;
     }
-  
-  /* Increase the font size of the heading */
-  .header h1 {
-    font-size: 40px;
-    background: #87CEFA;
-    color: #00bfff
-  }
-  
-  /* Sticky navbar  */
+   
+/* Style the body */
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0; }
+
+/* Sticky navbar  */
   .navbar {
     overflow: hidden;
     background-color: #1e90ff;
