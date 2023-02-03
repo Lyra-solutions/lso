@@ -38,6 +38,13 @@
     background: #ADD8E6;
     color:#36454f; }
    
+/*Style logo*/
+   .center {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+  }
 /* Sticky navbar  */
   .navbar {
     overflow: hidden;
