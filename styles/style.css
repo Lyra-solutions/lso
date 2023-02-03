@@ -15,7 +15,7 @@
 /* Increase the font size of the heading */
   h1 {
     font-size: 40px;
-    background: #87CEFA;
+    background-image: url("background.jpg");
     color: #00008B;
   }
   
@@ -24,7 +24,7 @@
     padding: 100px;
     font-weight: bold;
     text-align: center;
-    background: #87CEFA;
+    background-image: url("background.jpg");
     color: #00bfff;
     }
 
