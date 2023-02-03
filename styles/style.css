@@ -15,11 +15,11 @@
 /* Increase the font size of the heading */
   h1 {
     font-size: 40px;
-    background: #000080;
-    color: #00bfff
+    background: #87CEFA;
+    color: #00008B;
   }
   
-/* Header*/
+/* Header */
   .header {
     padding: 100px;
     font-weight: bold;
@@ -38,13 +38,14 @@
     background: #ADD8E6;
     color:#36454f; }
    
-/*Style logo*/
+/* Style logo */
    .center {
    display: block;
    margin-left: auto;
    margin-right: auto;
    width: 50%;
   }
+
 /* Sticky navbar  */
   .navbar {
     overflow: hidden;
