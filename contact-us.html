@@ -35,49 +35,29 @@
 <!-- main content of page -->
 <h1>Contact Us</h1>
     <!-- contact us customer support support form -->
-    <form action="">
-        <label for="ClientName">Full name/Company name</label>
-        <input type="text" id="ClientName" placeholder="Enter your full name or your
-        companys's name" name="ClientName">
-
-
-        <div class="client-type">
-            <p>Client type</p>
-            <div>
-                <label for="organisational">Organisational Use</label>
-                <input type="radio" name="c-type" id="organisational" value="organisational">
-            </div>
-            <div>
-                <label for="small-business">Small Business Use</label>
-                <input type="radio" name="c-type" id="small-business" value="small-business">
-            </div>
-            <div>
-                <label for="personal">Personal Use</label>
-                <input type="radio" name="c-type" id="personal" value="personal" required>
-            </div>
-
-            <div>
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email" placeholder="Enter contact email" required>
-            </div>
-
-            <div>
-                <label>
-                <span class=""><label for="products">Why would you like to contact us?</label></span>
-                <select name="product-selection" id="product-selection">
-                    
-                    <option value="service-q">Service Query</option>
-                    <option value="general-q">General Query</option>
-                    <option value="complaint">Complaint</option>
-                    <option value="other">Other</option>
-                    </label>
-                    </select>
-                    <textarea name="other-text" id="other-text" style="height:200px">If you selected other, please tell us more.</textarea>
-                    <input type="submit" value"Submit">
-
-            </form>
+ <div class="container">
+           <laber for="name">Full Name</label>
+           <input type="text" id="name" name="fullname" placeholder="Your name..">
+           
+           <laber for"mail">Email</label>
+           <input type="text" id="mail" name="email" placeholder="Your email...">
+           
+           <label for="type">Client type</label>
+           <select id="type" name="clienttype">
+           <option value="organisational">Organisational Use</option>
+           <option value="smallbusiness">Small Business Use</option>
+           <option value="personal">Personal Use</option>
+           <option value="other">Other</option>
+           </select>
+           <p>
+           <label  for="other">Subject</label></p>
+           <p>
+           <textarea id="other" name="subject" placeholder="If you select other, please tell us more ..." style="height:200px"></textarea></p>
+           <p>
+           <input type="submit" value="Submit"></p>
+           
+           </form>
         </div>
-
 <!-- footer -->
 <footer>
     <div class="foot"></div>
