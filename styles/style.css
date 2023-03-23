@@ -34,7 +34,7 @@
     padding: 100px;
     font-weight: bold;
     text-align: center;
-    
+    color: #FFF8DC;    
    
     /* Style inputs with type="text", select elements and textareas */
  input[type=text], select, textarea {
