@@ -91,18 +91,27 @@
             <input type="email" name="email" id="email" placeholder="Enter contact email" required>
         </div>
 
-        <div>
-            <span class=""><label for="products">Select a product</label></span>
-            <select name="product-selection" id="product-selection">
-                <option value="web-dev">Website development</option>
-                <option value="app-dev">App development</option>
-                <option value="other">Other</option>
-            </select>
-            <textarea name="other-text" id="other-text" cols="30"
-                rows="10">If you selected other, please tell us more.</textarea>
+       <dv class="container">
+           <laber for="name">Full Name</label>
+           <input type="text" id="name" name="fullname" placeholder="Your name..">
+           
+           <laber for"mail">Email</label>
+           <input type="text" id="mail" name="email" placeholder="Your email...">
+           
+           <label for="type">Client type</label>
+           <select id="type" name="clienttype">
+           <option value="organisational">Organisational Use</option>
+           <option value="smallbusiness">Small Business Use</option>
+           <option value="personal">Personal Use</option>
+           <option value="other">Other</option>
+           </select>
+           
+           <label  for="other">Subject</label>
+           <textarea id="other" name="subject" placeholder="If you select other, please tell us more ..." style="height:200px"></textarea>
+           <input type="submit" value="Submit">
+           
+           </form>
         </div>
-    </div>
-    </form>
     
 <!-- footer -->
 <footer>
