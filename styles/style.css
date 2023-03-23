@@ -15,7 +15,7 @@
 /* Increase the font size of the heading */
   h1 {
     font-size: 40px;
-    color: #00008B;
+    color: #F0FFFF;
   }
   
 /* Header */
@@ -23,7 +23,7 @@
     padding: 100px;
     font-weight: bold;
     text-align: center;
-    color: #00bfff;
+    color: #FFF8DC;
     }
 
 /* Style the body */
@@ -137,7 +137,7 @@
     -ms-flex: 70%; /* IE10 */
     flex: 70%;
     background-color: white;
-    color: #FFFFFF;
+    color: #A9A9A9;
     padding: 20px;
   }
 
